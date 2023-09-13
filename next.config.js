@@ -1,4 +1,6 @@
 module.exports = {
-    // Target must be serverless
-    target: 'serverless'
+    //output: 'export',
+    images:{
+      unoptimized:true
+    }
   };

@@ -8,8 +8,7 @@
     "dev": "next dev",
     "start": "next start",
     "build": "next build",
-    "lint": "next lint",
-    "postbuild": "next-on-netlify"
+    "lint": "next lint"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +17,6 @@
     "@mdi/js": "^7.2.96",
     "@mdi/react": "^1.6.1",
     "next": "^13.4.9",
-    "next-on-netlify": "^3.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-slick": "^0.29.0",
