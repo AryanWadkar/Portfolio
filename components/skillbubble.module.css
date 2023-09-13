@@ -1,0 +1,8 @@
+.bubble{
+    border-radius: min(1.4vh,0.67vw);
+    color: black;
+    background-color: #F3B616;
+    margin: 0.7vh 1vw 0.7vh 0;
+    padding: 1vh 1.4vw;
+    font-size: min(2vh,1vw);
+}

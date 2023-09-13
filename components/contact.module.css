@@ -1,0 +1,26 @@
+.bg{
+    background-color: #F1F1F1;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7.8vh 1vw;
+}
+
+.flex{
+    display: flex;
+    padding: 2.8vh 0;
+}
+
+.heading{
+    font-size: min(7vh,3.34vw);
+}
+
+.txt{
+    width: 55vw;
+    font-size: min(2.8vh,1.33vw);
+    text-align: center;
+    margin-bottom: 2.8vh;
+}

@@ -1,0 +1,125 @@
+.bg{
+    background-color: black;
+    height:max-content;
+    color: white;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    font-size: min(7vh,3.34vw);
+    text-align: center;
+    padding: 2.1vh 0px 1.4vh;
+}
+
+.arrbg{
+    background-color: black;
+    height: 60vh;
+    cursor: pointer;
+    width: max-content;
+    z-index: 20;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 90%;
+    background-color: black;
+    border-radius:  min(5.6vh,2.67vw);
+    font-size: min(2.51vh,1.20vw);
+    display: inline-block;
+    padding: 1.4vh 1.67vw;
+    overflow: hidden;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: min(7vh,3.34vw);
+}
+
+.subtitle{
+    font-size: min(3.5vh,1.67vw);
+    color: rgba(255,255, 255, 0.75);
+}
+
+.img{
+    max-height: 50vh;
+    min-height: 25vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 100%;
+    border-radius: min(2.8vh,1.33vw);
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.desc{
+    width: 80vw;
+    overflow: hidden;
+    text-overflow: clip;
+    padding: 0 2vw;
+    font-size: min(1.95vh,0.93vw);
+}
+
+.slidesholder{
+    width: 75vw;
+    padding: 5.6vh 0;
+    margin: 0;
+}
+
+.button__bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+  
+.button__bar li {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 0.2vw;
+    padding: 0 0.67vw;
+}
+  
+.button__bar li button {
+    border: none;
+    background: rgba(255, 252, 252, 0.5);
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    height: 1.4vh;
+    width: 0.67vw;
+    border-radius: min(1.05vh,050vw);
+}
+  
+.button__bar :global(li.slick-active) button {
+    background-color: #F3B616;
+}
+
+  

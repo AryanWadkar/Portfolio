@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: none; 
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: yellow;
+}
+
+li{
+  margin: 3px 0 3px 1rem;
+  list-style-type: circle;
+  display: list-item;
+}

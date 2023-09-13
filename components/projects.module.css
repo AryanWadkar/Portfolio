@@ -1,0 +1,122 @@
+.bg{
+    background-color: #ffffff;
+    height:min-content;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-items: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    font-size: min(7vh,3.34vw);
+    text-align: center;
+    padding: 2.1vh 0px 1.4vh;
+}
+
+.arrbg{
+    background-image: linear-gradient(to var(--dir), rgba(0,0,0,0.8), rgba(0,0,0,0) );
+    opacity: 0.4;
+    background-color: black;
+    height: 100%;
+    cursor: pointer;
+    width: max-content;
+    z-index: 20;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    position: absolute;
+    left:0
+}
+
+.right{
+    position: absolute;
+    right:0;
+}
+
+.card{
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    margin: 0 2vw 5.6vh;
+    border-radius: min(5.6vh,2.67vw);
+    padding: min(4.9vh,2.34vw);
+}
+
+.cardtitle{
+    font-size: min(7vh,3.34vw);
+}
+
+.img{
+    max-height: 35vh;
+    min-height: 30vh;
+    min-width: 50%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 100%;
+    border-radius: min(2.8vh,1.33vw);
+    overflow: hidden;
+    position: relative;
+    margin: 0 0 2.8vh 0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: min(2.8vh,1.33vw);
+}
+
+.slidesholder{
+    width: 100vw;
+    margin: 0;
+    padding: 5.6vh 0;
+}
+
+.button__bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+  
+.button__bar li {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 0.2vw;
+    padding: 0 0.67vw;
+}
+  
+.button__bar li button {
+    border: none;
+    background: rgba(0, 0, 0, 0.5);
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    height: 1.4vh;
+    width: 0.67vw;
+    border-radius: min(1.05vh,050vw);
+}
+  
+.button__bar :global(li.slick-active) button {
+    background-color: #F3B616;
+}
+
+.desc{
+    font-size: min(2.51vh,1.20vw);
+}
