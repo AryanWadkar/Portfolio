@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useRef } from 'react';
 import data from "../public/content";
-import Image from 'next/legacy/image'
+import Image from 'next/image'
 
 const bebasneue = Bebas_Neue({weight:'400', subsets: ['latin'] });
 const roboto = Roboto({weight:'400', subsets: ['latin'] });
@@ -44,8 +44,8 @@ function EndeavourDesc(props){
     return(
         <div className={styles.card}>
             <div className={styles.flex}> 
-            <div className={styles.img}><Image src={props.content.images[0]} style={{ width: '100%'}} layout="fill" objectFit="cover"/></div>
-                <div className={styles.desc}>
+                <div className={styles.img}><Image src={props.content.images[0]} width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}/></div>
+                    <div className={styles.desc}>
                     <h2 className={`${bebasneue.className} ${styles.title}`}>{props.content.title}</h2>
                     <h3 className={`${robotobold.className} ${styles.subtitle}`}>{props.content.subtitle}</h3>
                     <p className={roboto.className}>{props.content.desc}</p>

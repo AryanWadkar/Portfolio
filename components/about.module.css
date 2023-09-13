@@ -25,7 +25,17 @@
     padding: 2vh 8vw;
 }
 
-
+.img{
+  max-height: 11.18vh;
+  max-width: 5.35vw;
+  min-height: 7vh;
+  min-width: 3.34vw;
+  align-self: center;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
 
 
 
@@ -34,6 +44,11 @@
     width: 100%;
     margin: 4vh 0;
     padding: 4vh 0;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
   /* .slider::before,
   .slider::after{

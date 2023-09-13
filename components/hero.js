@@ -2,7 +2,7 @@ import PurpleButton from "./button";
 import styles from "./hero.module.css"
 import { mdiLinkedin,mdiDownload,mdiXml,mdiGithub } from '@mdi/js';
 import { Bebas_Neue,Roboto } from 'next/font/google';
-import Image from 'next/legacy/image'
+import Image from 'next/image'
 
 const roboto = Roboto({weight:'400', subsets: ['latin'] });
 const bebasneue = Bebas_Neue({weight:'400', subsets: ['latin'] });
@@ -21,7 +21,7 @@ export default function HeroSection(){
         <div className={styles.memphis}></div>
         <div className={styles.memphis}></div>
         <div className={styles.yellowcircle}></div>
-        <div className={styles.hero}><Image src={'/../public/hero/hero.png'} layout="fill" objectFit='cover'/></div>
+        <div className={styles.hero}><Image src={'/../public/hero/hero.png'} width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}/></div>
         <h1 className={`${bebasneue.className} ${styles.heading}`}>Hi! I am Aryan</h1>
         <h2 className={`${roboto.className} ${styles.txt}`}>A software developer working with all kinds of technologies. I love to learn!</h2>
         <div className={styles.flex}>

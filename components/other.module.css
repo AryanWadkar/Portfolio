@@ -59,7 +59,7 @@
 .img{
     max-height: 50vh;
     min-height: 25vh;
-    width: 100%;
+    width: 60%;
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: 100%;
@@ -75,7 +75,7 @@
 }
 
 .desc{
-    width: 80vw;
+    width: 40%;
     overflow: hidden;
     text-overflow: clip;
     padding: 0 2vw;

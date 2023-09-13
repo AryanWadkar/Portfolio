@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useRef } from 'react';
 import data from "../public/content"
-import Image from 'next/legacy/image'
+import Image from 'next/image'
 
 const bebasneue = Bebas_Neue({weight:'400', subsets: ['latin'] });
 const roboto = Roboto({weight:'400', subsets: ['latin'] });
@@ -60,7 +60,7 @@ function ProjCard(props){
                         {props.data.skills.map(ele=><SkillBubble skill={ele} key={ele}/>)}
                     </div>
                 </div>
-                <div className={styles.img}><Image src={props.data.images[0]} style={{ width: '100%'}} layout="fill" objectFit="cover"/></div>
+                <div className={styles.img}><Image src={props.data.images[0]} width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}/></div>
             </div>
             <p className={`${roboto.className} ${styles.desc}`} >{props.data.desc}</p>
             <RectButton label="View details" goto={`/projects/${props.data.id}`}/>

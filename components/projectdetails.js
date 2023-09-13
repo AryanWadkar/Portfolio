@@ -5,7 +5,7 @@ import SkillBubble from "./skillbubble";
 import Slider from "react-slick";
 import { useRef } from 'react';
 import Projects from "./projects";
-import Image from 'next/legacy/image'
+import Image from 'next/image'
 
 const bebasneue = Bebas_Neue({weight:'400', subsets: ['latin'] });
 const roboto = Roboto({weight:'400', subsets: ['latin'] });
@@ -41,7 +41,7 @@ const slider = useRef(null);
                     </div>
                 </div>
                 <Slider ref={slider} {...settings} className={styles.slidesholder}>
-                        {props.content.images.map(ele=><div className={styles.img} key={ele}><Image key={ele} src={ele} style={{ width: '100%'}} layout="fill" objectFit="contain"/></div>)}
+                        {props.content.images.map(ele=><div className={styles.img} key={ele}><Image key={ele} src={ele} width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}/></div>)}
                 </Slider> 
             </div>
             <div className={styles.desc}>
