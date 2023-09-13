@@ -15,7 +15,7 @@ const data={
                 {
                     "ico":mdiGithub,
                     "txt":"Github Repo",
-                    "url":"https://github.com"
+                    "url":"https://github.com/AryanWadkar/Log-Aggregator"
                 }
             ],
             "details":`
