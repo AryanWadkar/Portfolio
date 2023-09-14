@@ -30,7 +30,7 @@ export default function HeroSection(){
             <PurpleButton ico={mdiLinkedin} txt="Linkedin" goto="https://www.linkedin.com/in/aryan-wadkar-784966200/"/>
             <PurpleButton ico={mdiGithub} txt="Github" goto="https://github.com/AryanWadkar"/>
             <PurpleButton ico={mdiXml} txt="Coding Profile" goto="https://www.codingninjas.com/studio/profile/aryanw"/>
-            <PurpleButton ico={mdiDownload} txt="Get Resume" goto="https://drive.google.com/file/d/1IKERU_U9WOOECIQtS7YKyv9F9XfSWAyR/view?usp=drive_link"/>
+            <PurpleButton ico={mdiDownload} txt="Get Resume" goto="https://drive.google.com/file/d/14JmP6oB8sL6S0ELdjS7c27TLnY72V8uM/view?usp=drive_link"/>
         </div>
     </div>
     );

@@ -13,7 +13,7 @@ const bebasneue = Bebas_Neue({weight:'400', subsets: ['latin'] });
 
 export default function WorkEx(){
 
-    const [currsel,setsel] = useState("stlf");
+    const [currsel,setsel] = useState("fusion");
 
     const changeproj =(newproj)=>{
         setsel(newproj);
