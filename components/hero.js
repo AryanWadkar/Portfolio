@@ -7,6 +7,8 @@ import Image from 'next/image'
 const roboto = Roboto({weight:'400', subsets: ['latin'] });
 const bebasneue = Bebas_Neue({weight:'400', subsets: ['latin'] });
 
+import hero from '../public/hero/hero.png';
+
 export default function HeroSection(){
     return (
     <div className={styles.bg}>
@@ -21,7 +23,7 @@ export default function HeroSection(){
         <div className={styles.memphis}></div>
         <div className={styles.memphis}></div>
         <div className={styles.yellowcircle}></div>
-        <div className={styles.hero}><Image src={'/../public/hero/hero.png'} width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}/></div>
+        <div className={styles.hero}><Image src={hero} width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}/></div>
         <h1 className={`${bebasneue.className} ${styles.heading}`}>Hi! I am Aryan</h1>
         <h2 className={`${roboto.className} ${styles.txt}`}>A software developer working with all kinds of technologies. I love to learn!</h2>
         <div className={styles.flex}>

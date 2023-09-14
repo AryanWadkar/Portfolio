@@ -1,7 +1,41 @@
 import { mdiGithub,mdiLink,mdiReceiptText,mdiFileCertificate,mdiVideo} from '@mdi/js';
+import logagg1 from '../public/projects/logagg/1.png';
+import logagg2 from '../public/projects/logagg/2.png';
+import bts1 from '../public/projects/bts/1.png';
+import bts2 from '../public/projects/bts/2.png';
+import bts3 from '../public/projects/bts/3.png';
+import w1 from '../public/projects/walker/1.jpg';
+import w2 from '../public/projects/walker/2.jpg';
+import w3 from '../public/projects/walker/3.jpg';
+import w4 from '../public/projects/walker/4.jpg';
+import w5 from '../public/projects/walker/5.jpg';
+import w6 from '../public/projects/walker/6.jpg';
+import w7 from '../public/projects/walker/7.jpg';
+import w8 from '../public/projects/walker/8.jpg';
+import sm0 from '../public/projects/spacemate/0.png';
+import sm1 from '../public/projects/spacemate/1.png';
+import sm2 from '../public/projects/spacemate/2.png';
+import sm3 from '../public/projects/spacemate/3.png';
+import sm4 from '../public/projects/spacemate/4.png';
+import sm5 from '../public/projects/spacemate/5.png';
+import sm6 from '../public/projects/spacemate/6.png';
+import fk1 from '../public/projects/foodkatta/1.png';
+import fk2 from '../public/projects/foodkatta/2.png';
+import fk3 from '../public/projects/foodkatta/3.jpg';
+import fk4 from '../public/projects/foodkatta/4.jpg';
+import fk5 from '../public/projects/foodkatta/5.jpg';
+import enigma1 from '../public/projects/enigma/1.png';
+import enigma2 from '../public/projects/enigma/2.png';
+import techsurf from '../public/other/techsurf.png';
+import saaz from '../public/other/saaz.png';
+import gcp from '../public/other/gcp.png';
+import techniche from '../public/other/techniche.png';
+import coursera from '../public/other/coursera.png';
+import o2c from '../public/other/o2c.png';
+import video from '../public/other/video.png';
+import bmc from '../public/other/bmc.png';
+import cs from '../public/other/cs.png';
 
-const projectsroute="/../public/projects";
-const otherroute="/../public/other";
 const data={
     "projects": [
         { 
@@ -9,7 +43,7 @@ const data={
             "title": "Log Aggregator", 
             "subtitle":"Techsurf 2023",
             "desc": "Part of my submission for the hackathon Techsurf 2023 organised by Contentstack, the hackathon provided 3 problem statements one of them was to build a log aggregator service prototype (something like logstash) that will aggregate logs and provide a way to visualize them, they had bonus points for using opentelemetery to collect logs from various sources like AWS CloudWatch, Kafka, various frontend and backend applications etc. I implemented a solution using React.js, Express.js, BullMQ, NGINX and Opentelemetry's OTLP.", 
-            "images":[`${projectsroute}/logagg/1.png`,`${projectsroute}/logagg/2.png`,],
+            "images":[logagg1,logagg2],
             "skills": ["Express.js","Node.js","OpenTelemetry","ElasticSearch","Kibana"] ,
             "links":[
                 {
@@ -44,7 +78,7 @@ const data={
             "subtitle":"PR301 SEMESTER PROJECT",
             "desc": "Taken up as part of the PR301 semester project at IIITDM Jabalpur, the project was built with the intention to make an attempt to digitize the current system used for transit to and from the campus, the result was a system that provides real time updates about seat vacancy, a convenient wallet system, and security features like single device sign in. To prevent hogging a sophosticated QR based system was implemented to unqiuely identify user and validate tickets.", 
             "skills": ["Node.js","Express.js","MongoDB","Redis","Web Sockets","Server Sent Events"],
-            "images":[`${projectsroute}/bts/3.png`,`${projectsroute}/bts/1.png`,`${projectsroute}/bts/2.png`],
+            "images":[bts3,bts1,bts2],
             "links":[
                 {
                     "ico":mdiGithub,
@@ -79,7 +113,7 @@ const data={
             "title": "Smart Walker System", 
             "subtitle":"ENGINEERING DESIGN PROJECT",
             "desc": "A result of collaboration between engineering and design departments at IIITDM Jabalpur, this project aimed to develop a gertatric safety device that can help protect and prevent the elderly. The idea of the project was to create a device that will not only help the elderly move around better but also send an alert to their caretakers via mail and SMS in case a fall is detected. This is faciliated with a NodeMCU based IOT device and a mobile application to configure the device.", 
-            "images":[`${projectsroute}/walker/1.jpg`,`${projectsroute}/walker/2.jpg`,`${projectsroute}/walker/3.jpg`,`${projectsroute}/walker/4.jpg`,`${projectsroute}/walker/5.jpg`,`${projectsroute}/walker/6.jpg`,`${projectsroute}/walker/7.jpg`,`${projectsroute}/walker/8.jpg`],
+            "images":[w1,w2,w3,w4,w5,w6,w7,w8],
             "skills": ["NodeMCU","IOT Devices","HTTP Server","C++","Electronics","Flutter"] ,
             "links":[
                 {
@@ -117,7 +151,7 @@ const data={
             "title": "SpaceMate", 
             "subtitle":"FREELANCE PROJECT",
             "desc": "My first real world project, solving a real world problem for an interior design company based in Pune. The project resulted in a system to manage their operations, communicate with their customers and offer a mobile ecommerce platform configurable from an Admin side application. The project also features a document based chat and a system which executives at the company can use to send interior design solutions based on client input.", 
-            "images":[`${projectsroute}/spacemate/0.png`,`${projectsroute}/spacemate/1.png`,`${projectsroute}/spacemate/2.png`,`${projectsroute}/spacemate/3.png`,`${projectsroute}/spacemate/4.png`,`${projectsroute}/spacemate/5.png`,`${projectsroute}/spacemate/6.png`,],
+            "images":[sm0,sm1,sm2,sm3,sm4,sm5,sm6],
             "skills": ["Flutter","Google OAuth2","Firebase Cloud Storage","Figma","System Architecture Design","Firebase Push Notifications","Firebase FireStore",] ,
             "links":[
                 {
@@ -181,7 +215,7 @@ const data={
             "title": "FoodKatta", 
             "subtitle":"FREELANCE PROJECT",
             "desc": "A freelance project for a Pune based packaged food delivery company. The company needed a crossplatform mobile application to extend their service to their customers to be. I worked with the company founder and co-founder to understand their needs and design and develop the application accordingly. I also worked with the company\'s backend development team to to further product development and implement new features.", 
-            "images":[`${projectsroute}/foodkatta/b.png`,`${projectsroute}/foodkatta/a.png`,`${projectsroute}/foodkatta/c.jpg`,`${projectsroute}/foodkatta/d.jpg`,`${projectsroute}/foodkatta/e.jpg`],
+            "images":[fk1,fk2,fk3,fk4,fk5],
             "skills": ["Flutter","Google OAuth2","REST APIs","Figma"] ,
             "links":[
                 {
@@ -215,7 +249,7 @@ const data={
             "title": "ENIGMA", 
             "subtitle":"Personal Project",
             "desc": "A simple minimalistic web app to emulate the infamous ENIGMA machine using during WWII to encrypt and decrypt messages by the Nazi soldiers. The web app provides a simple interface with rotors that you can set, and bulbs that light up on key presses. To encrypt or decrypt, you set the rotors at any position and the type your message in, as you do, the encrypted/decrypted message will start lighting up letter by letter on the screen.", 
-            "images":[`${projectsroute}/enigma/1.png`,`${projectsroute}/enigma/2.png`],
+            "images":[enigma1,enigma2],
             "skills": ["React.js","CSS","Javascript","Figma"] ,
             "links":[
                 {
@@ -297,9 +331,9 @@ const data={
             "id": "techsurf", 
             "title": "Techsurf 2023", 
             "subtitle":"Hackathon",
-            "desc": "This was a hackathon organised by Contentstack, I cleared ranked 5th out of 34396 applicants. The selection was on the basis of speed and accuracy in an online assessment. The second round presented 3 problem statements, out which I decided to build a prototype log aggregator service as my submission for round 2 which got shortlisted. I built a full scale solution which won me rank 5th in the hackathon", 
+            "desc": "This was a hackathon organised by Contentstack, I secured rank 5 out of 34396 applicants. The selection was on the basis of speed and accuracy in an online assessment. The second round presented 3 problem statements, out which I decided to build a prototype log aggregator service as my submission for round 2 which got shortlisted. I built a full scale solution which won me rank 5th in the hackathon", 
             "skills": ["Node.js","Express.js","Data Structures","Algorithms"],
-            "images":[`${otherroute}/techsurf.png`],
+            "images":[techsurf],
             "link":""
         },{
             "id": "saaz", 
@@ -307,7 +341,7 @@ const data={
             "subtitle":"CO-COORDINATOR",
             "desc": "The official co-coordinator and gymkhana office bearer for Saaz : The music club of the insititue. I worked with the club to express my love for music and I managed, organised and executed 10+ events and activites which recieved participation from all kinds of people in the institute.", 
             "skills": ["Event Management","Leadership"],
-            "images":[`${otherroute}/saaz.png`],
+            "images":[saaz],
             "link":"https://www.iiitdmj.ac.in/saaz.iiitdmj.ac.in/"
         },{
             "id": "cloud", 
@@ -315,7 +349,7 @@ const data={
             "subtitle":"GOOGLE CLOUD CERITIFICATION",
             "desc": "Obtained various badges and certification for completing 30 Days of Cloud, a program run by Google to educate students about the google cloud platfrom. I learnt a lot about the various features about the platform as well as its workings.", 
             "skills": ["Google Cloud Platform"],
-            "images":[`${otherroute}/gcp.png`],
+            "images":[gcp],
             "link":"https://www.cloudskillsboost.google/public_profiles/3bc3f3f1-6fae-43be-a76d-1af8f691de57"
         },{
             "id": "techniche", 
@@ -323,7 +357,7 @@ const data={
             "subtitle":"Robot Building Competiton",
             "desc": "Participated in a robot building competition organised by IIT Guwahati, the competiton tasked me and me team of 4 to build a bot that can move around in 4 directions, pick up and object and ascend/descend a rope. Me and my team made designs and models for the bot and also qualified among 6 other teams from our insititue.", 
             "skills": ["Robot Design","Collaboration"],
-            "images":[`${otherroute}/techniche.png`],
+            "images":[techniche],
             "link":""
         },{
             "id": "coursera", 
@@ -331,7 +365,7 @@ const data={
             "subtitle":"Coursera Certification",
             "desc": "I took up a course from the popular website Coursera to learn HTML CSS and JS as a starting point for my development journey, it was a 5 week course offered by John Hopkins Univeristy and covered various web development fundamentals. The course also had weekly peer reviewed assignments which were extremely helpful.", 
             "skills": ["HTML","CSS","JavaScript"],
-            "images":[`${otherroute}/coursera.png`],
+            "images":[coursera],
             "link":"https://coursera.org/share/7af7aa2bc03c4ac09926d7cbd3a2bf49"
         },{
             "id": "ode2code", 
@@ -339,7 +373,7 @@ const data={
             "subtitle":"Hackathon",
             "desc": "This hackathon was organised by Xiaomi, the problem statement was to create a unified billing system for their physical stores that will digitize their POS (Point of Sale) endpoints. I participated with a batchmate and qualified the first round of the hackathon among 7806 teams.", 
             "skills": ["System Architecture Design","Collaboration","Figma"],
-            "images":[`${otherroute}/o2c.png`],
+            "images":[o2c],
             "link":""
         },{
             "id": "videoediting", 
@@ -347,7 +381,7 @@ const data={
             "subtitle":"Hobby",
             "desc": "A hobby that I picked up as part of my goal of learning a creative skill, I primarily used Adobe Premiere Pro to edit all kinds of videos, be it promo videos or montage videos. Here is something that I edited for my club\'s, this video is meant to orient the batch 2021 and infrom them about my club.", 
             "skills": ["Abode Premiere Pro"],
-            "images":[`${otherroute}/video.png`],
+            "images":[video],
             "link":"https://www.youtube.com/watch?v=_V7MZpl4_JY"
         },{
             "id": "graphicdesign", 
@@ -355,15 +389,15 @@ const data={
             "subtitle":"Content Graphic Design",
             "desc": "A creative skill that I decided to learn during my first year, I used Adobe Illustrator to design posts for the business and management club (BMC) of my institute, I worked in a content creation team where I had fellow content curators and graphic designers working together to create 3 posts every week. I also did poster design for events at my club Saaz.", 
             "skills": ["Adobe Illustrator","Collaboration"],
-            "images":[`${otherroute}/bmc.png`],
+            "images":[bmc],
             "link":"https://www.instagram.com/bmc.iiitdmj/"
         },{
             "id": "dsa", 
-            "title": "Data Structures and Algorithms", 
+            "title": "Data Structures & Algorithms", 
             "subtitle":"DSA Practice",
             "desc": "I practiced data structures and algorithms on various platforms like LeetCode, CodeStudio, GeeksforGeeks to better my logic and understanding and sharpen my coding skills. I also practiced the popular Striver\'s SDE sheet and used various sources from youtube to learn computer science fundamentals like operating systems, DBMS, computer networks and OOPS. I also made hand-made notes for all the questions I solved and topics I studied.", 
             "skills": ["Data Structures","Algorithms"],
-            "images":[`${otherroute}/cs.png`],
+            "images":[cs],
             "link":"https://www.codingninjas.com/studio/profile/aryanw"
         }
     ]
