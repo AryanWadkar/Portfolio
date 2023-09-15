@@ -1,6 +1,6 @@
 import PurpleButton from "./button";
 import { Bebas_Neue,Roboto } from 'next/font/google';
-import styles from "./projectdetails.module.css"
+import styles from "../styles/projectdetails.module.css"
 import SkillBubble from "./skillbubble";
 import Slider from "react-slick";
 import { useRef } from 'react';

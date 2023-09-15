@@ -45,6 +45,30 @@
     justify-content: center;
     display: flex;
   }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .txt{
+      padding: 10px 20px;
+      font-size: 0.687rem;
+    }
+
+    .slider {
+      height: 40px;
+      width: 100%;
+      margin: 15px 0;
+      padding: 15px 0;
+    }
+
+    .heading{
+      font-size: 1.56rem;
+    }
+
+    .bg{
+      padding: 10px 15px;
+    }
+
+  }
   /* .slider::before,
   .slider::after{
     position:absolute;

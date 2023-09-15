@@ -152,7 +152,7 @@ const data={
             "subtitle":"FREELANCE PROJECT",
             "desc": "My first real world project, solving a real world problem for an interior design company based in Pune. The project resulted in a system to manage their operations, communicate with their customers and offer a mobile ecommerce platform configurable from an Admin side application. The project also features a document based chat and a system which executives at the company can use to send interior design solutions based on client input.", 
             "images":[sm0,sm1,sm2,sm3,sm4,sm5,sm6],
-            "skills": ["Flutter","Google OAuth2","Firebase Cloud Storage","Figma","System Architecture Design","Firebase Push Notifications","Firebase FireStore",] ,
+            "skills": ["Flutter","Google OAuth2","Figma","System Architecture Design","Firebase Cloud Storage","Push Notifications","FireStore",] ,
             "links":[
                 {
                     "ico":mdiFileCertificate,

@@ -1,5 +1,5 @@
 import { Bebas_Neue,Roboto } from 'next/font/google';
-import styles from "./about.module.css"
+import styles from "../styles/about.module.css"
 import Image from 'next/image'
 import Slider from "react-slick";
 

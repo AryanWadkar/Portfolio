@@ -1,5 +1,5 @@
 
-import styles from "./workex.module.css"
+import styles from "../styles/workex.module.css"
 import { Bebas_Neue,Roboto } from 'next/font/google';
 import SkillBubble from "./skillbubble";
 import { RectButton } from "./button";
@@ -24,9 +24,9 @@ export default function WorkEx(){
         <h1 className={`${bebasneue.className} ${styles.heading}`}>i have worked at</h1>
         <div className={`${bebasneue.className} ${styles.flex}`}>
             <div className={styles.labels}>
-                <div className={currsel=="fusion"?styles.sel:styles.notsel} onClick={(e)=>changeproj("fusion")}>Fusion IIITDMJ</div>
-                <div className={currsel=="stlf"?styles.sel:styles.notsel} onClick={(e)=>changeproj("stlf")}>STLF IIITDMJ</div>
-                <div className={currsel=="vh"?styles.sel:styles.notsel} onClick={(e)=>changeproj("vh")}>Vigorus Healthtech</div>
+                <div className={`${currsel=="fusion"?styles.sel:''} ${styles.btn}`} onClick={(e)=>changeproj("fusion")}>Fusion IIITDMJ</div>
+                <div className={`${currsel=="stlf"?styles.sel:''} ${styles.btn}`} onClick={(e)=>changeproj("stlf")}>STLF IIITDMJ</div>
+                <div className={`${currsel=="vh"?styles.sel:''} ${styles.btn}`} onClick={(e)=>changeproj("vh")}>Vigorus Healthtech</div>
             </div>
             <div className={`${styles.divider}`} style={{"--pos":data[currsel].pos}}></div>
             <div className={styles.desc}>

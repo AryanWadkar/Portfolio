@@ -1,4 +1,4 @@
-import styles from './skillbubble.module.css'
+import styles from '../styles/skillbubble.module.css'
 import {Roboto } from 'next/font/google';
 const robotobold = Roboto({weight:'900', subsets: ['latin'] });
 

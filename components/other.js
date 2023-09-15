@@ -1,5 +1,5 @@
 import { Bebas_Neue,Roboto } from 'next/font/google';
-import styles from "./other.module.css"
+import styles from "../styles/other.module.css"
 import Icon from '@mdi/react';
 import { mdiChevronLeft,mdiChevronRight } from '@mdi/js';
 import SkillBubble from './skillbubble';

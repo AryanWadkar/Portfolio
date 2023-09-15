@@ -1,5 +1,5 @@
 import PurpleButton from "./button";
-import styles from "./contact.module.css"
+import styles from "../styles/contact.module.css"
 import { mdiPhone,mdiEmail,mdiLinkedin,mdiInstagram } from '@mdi/js';
 import { Bebas_Neue,Roboto } from 'next/font/google';
 

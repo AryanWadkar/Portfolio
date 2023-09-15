@@ -12,6 +12,16 @@
     justify-content: space-between;
 }
 
+.left{
+    position: absolute;
+    left:0
+}
+
+.right{
+    position: absolute;
+    right:0;
+}
+
 .heading{
     font-size: 3.125rem;
     text-align: center;
@@ -36,27 +46,25 @@
     margin: 5px;
 }
 
-.left{
-    position: absolute;
-    left:0
-}
-
-.right{
-    position: absolute;
-    right:0;
+.slidesholder{
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
 }
 
 .card{
-    height: 80vh;
-    background-color: #0C1123;
-    box-shadow: rgba(255, 255, 255, 0.07) 0px 1px 2px, rgba(255, 255, 255, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    height: 60vh;
     margin: 0 30px;
-    border-radius: 40px;
     padding: 35px;
 }
 
-.cardtitle{
+.title{
     font-size: 3.125rem;
+}
+
+.subtitle{
+    font-size: 1.563rem;
+    color: rgba(255,255, 255, 0.75);
 }
 
 .img{
@@ -74,13 +82,14 @@
 .wrap{
     display: flex;
     flex-wrap: wrap;
-    font-size: 1.25rem;
 }
 
-.slidesholder{
-    width: 100%;
-    margin: 0;
-    padding: 20px 0;
+.desc{
+    width: 50%;
+    overflow: hidden;
+    text-overflow: clip;
+    padding: 0 30px;
+    font-size: 0.875rem;
 }
 
 .button__bar {
@@ -92,7 +101,6 @@
     padding: 0;
     width: 100%;
     text-align: center;
-    margin-top: 20px;
 }
   
 .button__bar li {
@@ -105,7 +113,7 @@
   
 .button__bar li button {
     border: none;
-    background: rgba(255, 255, 255, 0.436);
+    background: rgba(255, 252, 252, 0.5);
     color: transparent;
     cursor: pointer;
     display: block;
@@ -118,6 +126,72 @@
     background-color: #F3B616;
 }
 
-.desc{
-    font-size: 1.125rem;
-}
+@media only screen and (max-width: 1180px) {
+    /* For mobile phones: */
+    .desc{
+        font-size: 0.8rem;
+    }
+
+    .title{
+        font-size: 2.34rem;
+    }
+    
+    .card{
+        height: max-content;
+        margin: 0 30Y
+        px;
+        padding: 20px;
+    }
+  }
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .heading{
+        font-size: 1.56rem;
+        padding: 7.5px 0px 5px;
+    }
+    
+    .arrbg{
+        width: 27.5px;
+        height: 27.5px;
+        margin: 7.5px;
+    }
+
+    .img{
+        height: 20vh;
+        width: 100%;
+        background-size: 100%;
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+    
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button__bar {
+        margin-top: 10px;
+    }
+      
+    .button__bar li {
+        margin: 0 1.5px;
+        padding: 0 5px;
+    }
+      
+    .button__bar li button {
+        height: 5px;
+        width: 5px;
+    }
+  }
+
+  @media only screen and (max-width: 336px) {
+    /* For mobile phones: */
+    .card{
+        min-height: 100vh;
+        height: max-content;
+    }
+    
+  }

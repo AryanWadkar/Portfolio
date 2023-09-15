@@ -1,5 +1,5 @@
 
-import styles from './nav.module.css'
+import styles from '../styles/nav.module.css'
 import { Bebas_Neue } from 'next/font/google';
 
 

@@ -1,4 +1,4 @@
-import styles from "./button.module.css"
+import styles from "../styles/button.module.css"
 import Icon from '@mdi/react';
 import { Bebas_Neue } from 'next/font/google';
 import Link from 'next/link'

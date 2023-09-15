@@ -1,5 +1,5 @@
 import { Bebas_Neue,Roboto } from 'next/font/google';
-import styles from "./projects.module.css"
+import styles from "../styles/projects.module.css"
 import Icon from '@mdi/react';
 import { mdiChevronLeft,mdiChevronRight } from '@mdi/js';
 import SkillBubble from './skillbubble';
@@ -53,7 +53,7 @@ function ProjCard(props){
             <div className={styles.flex}> 
                 <div>
                     <h2 className={`${bebasneue.className} ${styles.cardtitle}`}>{props.data.title}</h2>
-                    <h3 className={robotobold.className}>{props.data.subtitle}</h3>
+                    <h3 className={`${robotobold.className} ${styles.subtitle}`}>{props.data.subtitle}</h3>
                     <div className={styles.wrap}>
                         {props.data.skills.map(ele=><SkillBubble skill={ele} key={ele}/>)}
                     </div>

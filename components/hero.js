@@ -1,5 +1,5 @@
 import PurpleButton from "./button";
-import styles from "./hero.module.css"
+import styles from "../styles/hero.module.css"
 import { mdiLinkedin,mdiDownload,mdiXml,mdiGithub } from '@mdi/js';
 import { Bebas_Neue,Roboto } from 'next/font/google';
 import Image from 'next/image'
@@ -22,7 +22,7 @@ export default function HeroSection(){
                 <PurpleButton ico={mdiDownload} txt="Get Resume" goto="https://drive.google.com/file/d/14JmP6oB8sL6S0ELdjS7c27TLnY72V8uM/view?usp=drive_link"/>
             </div>
         </div>
-        <Image src={hero} width={0} height={0} sizes="100vw" style={{ width: '30%', height: 'auto' }}/>
+        <Image src={hero} width={0} height={0} sizes="100vw" className={styles.hero}/>
     </div>
     );
 }
