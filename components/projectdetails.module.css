@@ -1,68 +1,92 @@
 .bg{
-    background-color: #ffffff;
-    height:min(100vh,max-content);
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    justify-items: center;
-    width: 100vw;
+    height:max-content;
+    margin: 10px 20px;
+    padding: 10px 20px;
 }
 
 .flex{
-    margin:7vh 1.33vw 0;
+    margin:50px 0;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 
 .wrap{
-    margin:1.4vh 0 0;
+    margin:10px 0 0;
     display: flex;
     flex-wrap: wrap;
 }
 
 .header{
-    padding: 1.4vh 1.33vw;
-    height: 50vh;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
 .heading{
-    font-size: min(7vh,3.34vw);
+    font-size: 3.125rem;
 }
 
 .subheading{
-    font-size:min(2.8vh,1.33vw)
+    font-size:20px;
 }
 
 .preface{
-    font-size:min(1.95vh,0.94vw)
+    font-size:14px
 }
 
 .img{
     height: 50vh;
-    width: auto;
+    width: 50%;
     background-repeat: no-repeat;
-    object-fit: contain;
     background-size: 100%;
-    border-radius: 2.8vh;
-    margin: 2.8vh 0;
+    border-radius: 20px;
     overflow: hidden;
-    position: relative;
+    margin: 0 0 20px 0;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    position: relative;
 }
 
 .slidesholder{
-    width: 50vw;
-    margin: 3.5vh 1.68vw;
-    border-radius: min(5.6vh,2.67vw);
-    padding: 0 0.67vw;
+    width: 50%;
+    border-radius: 40px;
 }
 
 .desc{
-    margin: 1.4vh 1.3vw;
-    padding: 1.4vh 1.67vw;
-    font-size:min(1.95vh,0.94vw)
+    font-size:14px
+}
+
+.button__bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+  
+.button__bar li {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 3px;
+    padding: 0 10px;
+}
+  
+.button__bar li button {
+    border: none;
+    background: rgba(255, 252, 252, 0.5);
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: min(1.05vh,050vw);
+}
+  
+.button__bar :global(li.slick-active) button {
+    background-color: #F3B616;
 }

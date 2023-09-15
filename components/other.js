@@ -22,20 +22,21 @@ export default function OtherSection(){
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows:false,
+        centerMode:true,
         dotsClass: styles.button__bar,
 };
 
 const slider = useRef(null);
     return(
         <div className={`${styles.bg}`}>
-                <div className={`${styles.arrbg}`} onClick={() => slider.current.slickPrev()}><Icon path={mdiChevronLeft}size={2}color="white"/></div>
+                <div className={`${styles.arrbg} ${styles.left}`} onClick={() => slider.current.slickPrev()}><Icon path={mdiChevronLeft}size={2}color="white"/></div>
                 <div className={styles.slidesholder}>
                         <h1 className={`${bebasneue.className} ${styles.heading}`}>Other Endeavours</h1>
                         <Slider ref={slider} {...settings}>
                             {data.other.map(ele=> <EndeavourDesc content={ele} key={ele}/>)}
                         </Slider> 
                 </div>
-                <div className={`${styles.arrbg}`} onClick={() => slider.current.slickNext()}><Icon path={mdiChevronRight}size={2}color="white"/></div>
+                <div className={`${styles.arrbg}  ${styles.right}`} onClick={() => slider.current.slickNext()}><Icon path={mdiChevronRight}size={2}color="white"/></div>
         </div>
     )
 }
@@ -44,7 +45,7 @@ function EndeavourDesc(props){
     return(
         <div className={styles.card}>
             <div className={styles.flex}> 
-                <div className={styles.img}><Image src={props.content.images[0]} width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}/></div>
+                <div className={styles.img}><Image src={props.content.images[0]} width={0} height={0} sizes="100vw" fill={true} style={{ width: '100%', objectFit: 'cover' }}/></div>
                     <div className={styles.desc}>
                     <h2 className={`${bebasneue.className} ${styles.title}`}>{props.content.title}</h2>
                     <h3 className={`${robotobold.className} ${styles.subtitle}`}>{props.content.subtitle}</h3>

@@ -9,7 +9,7 @@ export default function Footer() {
     return (
       <>
         <div className={`${bebasneue.className} ${styles.bg} ${styles.footer}`}>
-          Designed by : Aryan Wadkar
+          Designed & Developed by : Aryan Wadkar
         </div>
       </>
     )

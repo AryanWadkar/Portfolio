@@ -21,7 +21,8 @@ export default function ProjDetail(props){
         autoplay: false,
         autoplaySpeed: 2000,
         pauseOnHover: true,
-        arrows:false
+        arrows:false,
+        dotsClass: styles.button__bar,
 };
 const slider = useRef(null);
     return(
@@ -41,7 +42,7 @@ const slider = useRef(null);
                     </div>
                 </div>
                 <Slider ref={slider} {...settings} className={styles.slidesholder}>
-                        {props.content.images.map(ele=><div className={styles.img} key={ele}><Image key={ele} src={ele} width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}/></div>)}
+                        {props.content.images.map(ele=><div className={styles.img} key={ele}><Image key={ele} src={ele} width={0} height={0} sizes="100vw" fill={true} style={{ width: '100%', objectFit: 'cover' }}/></div>)}
                 </Slider> 
             </div>
             <div className={styles.desc}>

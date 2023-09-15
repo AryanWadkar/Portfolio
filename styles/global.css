@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   scrollbar-width: none; 
+  box-sizing: border-box;
+
 }
 
 *::-webkit-scrollbar {
@@ -11,6 +13,8 @@
 html {
   --scroll-behavior: smooth !important;
   scroll-behavior: smooth !important;
+  color: white;
+  background-color: #161925;
 }
 
 body {

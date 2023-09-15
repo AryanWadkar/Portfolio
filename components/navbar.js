@@ -9,11 +9,11 @@ export default function Navbar() {
     return (
       <>
         <div className={`${bebasneue.className} ${styles.bg} ${styles.nav}`}>
-            <div className={styles.txt}><a href="/#">Aryanwadkar.live</a></div>
+            <a className={styles.txt} href="/#">Aryanwadkar.live</a>
             <div className={styles.sections}>
-                <div className={styles.txt}><a href="/#about">About</a></div>
-                <div className={styles.txt}><a href="/#exp">Experience</a></div>
-                <div className={styles.txt}><a href="/#projects">Projects</a></div>
+                <a className={styles.txt} href="/#about">About</a>
+                <a className={styles.txt} href="/#exp">Experience</a>
+                <a className={styles.txt} href="/#projects">Projects</a>
             </div>
         </div>
       </>

@@ -28,18 +28,16 @@ export default function WorkEx(){
                 <div className={currsel=="stlf"?styles.sel:styles.notsel} onClick={(e)=>changeproj("stlf")}>STLF IIITDMJ</div>
                 <div className={currsel=="vh"?styles.sel:styles.notsel} onClick={(e)=>changeproj("vh")}>Vigorus Healthtech</div>
             </div>
-                <div className={`${styles.divider}`} style={{"--pos":data[currsel].pos}}></div>
-                <div className={styles.desc}>
-                    <div className={styles.position}>{data[currsel].heading}</div>
-                    <div className={`${robotobold.className} ${styles.duration}`}>{data[currsel].duration}</div>
-                    <div className={styles.skills}>
-                        {data[currsel].skills.map(d => (<SkillBubble skill={d} key={d}></SkillBubble>))}
-                    </div>
-                    <div className={`${roboto.className} ${styles.details}`}>
-                    {data[currsel].desc}
-                    </div>
-                    {data[currsel].link!="" &&<RectButton label="View Certificate" goto={data[currsel].link}/>}
+            <div className={`${styles.divider}`} style={{"--pos":data[currsel].pos}}></div>
+            <div className={styles.desc}>
+                <div className={styles.position}>{data[currsel].heading}</div>
+                <div className={`${robotobold.className} ${styles.duration}`}>{data[currsel].duration}</div>
+                <div className={styles.skills}>
+                    {data[currsel].skills.map(d => (<SkillBubble skill={d} key={d}></SkillBubble>))}
                 </div>
+                <div className={`${roboto.className} ${styles.details}`}>{data[currsel].desc}</div>
+                {data[currsel].link!="" &&<RectButton label="View Certificate" goto={data[currsel].link}/>}
+            </div>
         </div>
     </div>
     );

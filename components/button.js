@@ -21,7 +21,7 @@ export default function PurpleButton(props){
 export function RectButton(props){
     return(
         <Link className={`${bebasneue.className} ${styles.rect}` } href={props.goto} target="_blank">
-            {props.label} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🞂
+            {props.label} &nbsp;&nbsp;<span className={styles.arrow1}>🞂</span><span className={styles.arrow2}>🞂</span>
         </Link>
     );
 }

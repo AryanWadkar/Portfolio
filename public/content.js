@@ -270,6 +270,25 @@ const data={
         },
     ],
     "workex":{
+        "fusion":{
+            "heading":"Django web developer",
+            "duration":"MAY 2022 - JULY 2022",
+            "skills":["Django", "Postgre SQL", "HTML", "CSS", "JavaScript"],
+            "desc":
+            <div>
+                <p>Fusion is an ERP software for the institute, it contains various modules that faciliate various operations like making complaints, paying fees, academic details etc.</p>
+                <p>The software is not yet fully deployed and is usually developed, moderated and maintanined by students from various departments willing to work on the software.</p>
+                <p>I collaborated with a team of 3 and worked on the complaint moudle to achieve the following:</p>
+                <ul>
+                    <li>Installed a feature that allows uploading images for any type of complaint</li>
+                    <li>Made it compulsory for a resolution proof to be attached by the hostel caretaker when the complaint is being marked resolved.</li>
+                    <li>Made changes to the HTML of the interface to make it more syntactically accurate</li>
+                </ul>
+            </div>,
+            "link":"",
+            "pos":"18%"
+            
+        },
         "stlf":{
             "heading":"Django web developer ",
             "duration":"SEP 2022 - JAN 2023",
@@ -287,43 +306,26 @@ const data={
                 </ul>
             </div>,
             "link":"",
-            "pos":"9vh"
-        },
-        "fusion":{
-            "heading":"Django web developer",
-            "duration":"MAY 2022 - JULY 2022",
-            "skills":["Django", "Postgre SQL", "HTML", "CSS", "JavaScript"],
-            "desc":<div>
-            <p>Fusion is an ERP software for the institute, it contains various modules that faciliate various operations like making complaints, paying fees, academic details etc.</p>
-            <p>The software is not yet fully deployed and is usually developed, moderated and maintanined by students from various departments willing to work on the software.</p>
-            <p>I collaborated with a team of 3 and worked on the complaint moudle to achieve the following:</p>
-            <ul>
-                <li>Installed a feature that allows uploading images for any type of complaint</li>
-                <li>Made it compulsory for a resolution proof to be attached by the hostel caretaker when the complaint is being marked resolved.</li>
-                <li>Made changes to the HTML of the interface to make it more syntactically accurate</li>
-            </ul>
-        </div>,
-            "link":"",
-            "pos":"1vh"
-            
+            "pos":"48%"
         },
         "vh":{
             "heading":"Flutter Developer",
             "duration":"FEB 2023 - MAY 2023",
             "skills":["Flutter", "Firebase", "REST API", "Localization", "Provider"],
-            "desc":<div>
-            <p>Vigorus Healthtech is a Jaipur based startup revolutionizing healthcare with their blockchain based product Chikitsa.</p>
-            <p>The product allows user to upload his/her details and make booking appointments with various doctors who then autmatically recieve all of the patient's details</p>
-            <p>I collaborated with a team of 3 to achieve the following:</p>
-            <ul>
-                <li>Layed groundwork for the crossplatform application of the product by developing 60+ different screens in Flutter and implemented localization to make the app available in both Hindi and English</li>
-                <li>Integrated serverless APIs to faciliatate login, verification, fetching and storing of user data.</li>
-                <li>Installed vital firebase services like In-App-Messaging, Push-Notifications, Crashlytics and Event Architecture</li>
-                <li>Ehanced app security with timeout based app lock, Jailbreak detection and 256bit AES Encryption for session management.</li>
-            </ul>
+            "desc":
+            <div>
+                <p>Vigorus Healthtech is a Jaipur based startup revolutionizing healthcare with their blockchain based product Chikitsa.</p>
+                <p>The product allows user to upload his/her details and make booking appointments with various doctors who then autmatically recieve all of the patient's details</p>
+                <p>I collaborated with a team of 3 to achieve the following:</p>
+                <ul>
+                    <li>Layed groundwork for the crossplatform application of the product by developing 60+ different screens in Flutter and implemented localization to make the app available in both Hindi and English</li>
+                    <li>Integrated serverless APIs to faciliatate login, verification, fetching and storing of user data.</li>
+                    <li>Installed vital firebase services like In-App-Messaging, Push-Notifications, Crashlytics and Event Architecture</li>
+                    <li>Ehanced app security with timeout based app lock, Jailbreak detection and 256bit AES Encryption for session management.</li>
+                </ul>
         </div>,
             "link":"https://drive.google.com/file/d/1SbGEKgxRZmaU_Kk8UmizoTkAfGVdiIVK/view?usp=sharing",
-            "pos":"16vh"
+            "pos":"78%"
         }
     },
     "other":[

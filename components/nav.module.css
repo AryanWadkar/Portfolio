@@ -1,8 +1,8 @@
 .bg {
-    background-color: #6A00D5;
     color: white;
-    padding: 1vh 1vw;
-    font-size: 1.67vw;
+    padding: 7px 15px;
+    font-size: 1.563rem;
+    margin-top: 20px;
 }
 
 .nav{
@@ -11,12 +11,31 @@
 }
 
 .footer{
+    background-color: rgba(0,0,0,0.4);
     text-align: center;
 }
 
 .txt {
-    display: block;
-    padding: 0px 1vw;
+    padding: 0px 15px;
+    margin: 0 10px;
+    position: relative;
+    text-decoration: none;
+}
+
+.txt::before{
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.25s ease-in-out;
+    z-index: -1;
+    background: #6A00D5;
+}
+
+.txt:hover::before{
+    transform: scaleX(1);
+    transform-origin: left;
 }
 
 .sections{

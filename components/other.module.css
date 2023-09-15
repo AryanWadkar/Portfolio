@@ -1,12 +1,10 @@
 .bg{
-    background-color: black;
-    height:max-content;
-    color: white;
+    min-height:95vh;
+    margin: 0;
     padding: 0;
-    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 
 .flex{
@@ -14,59 +12,71 @@
     justify-content: space-between;
 }
 
+.left{
+    position: absolute;
+    left:0
+}
+
+.right{
+    position: absolute;
+    right:0;
+}
+
 .heading{
-    font-size: min(7vh,3.34vw);
+    font-size: 3.125rem;
     text-align: center;
-    padding: 2.1vh 0px 1.4vh;
+    padding: 15px 0px 10px;
 }
 
 .arrbg{
-    background-color: black;
-    height: 60vh;
+    background-color: #6A00D5;
     cursor: pointer;
-    width: max-content;
     z-index: 20;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
     display: flex;
-    align-self: center;
-    justify-self: center;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin: 15px;
+    transition: all 0.25s ease-in-out;
+}
+
+.arrbg:hover{
+    margin: 5px;
+}
+
+.slidesholder{
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
 }
 
 .card{
-    width: 90%;
-    background-color: black;
-    border-radius:  min(5.6vh,2.67vw);
-    font-size: min(2.51vh,1.20vw);
-    display: inline-block;
-    padding: 1.4vh 1.67vw;
-    overflow: hidden;
-    display: flex;
-    justify-self: center;
-    align-self: center;
-    margin: 0 auto;
+    height: 60vh;
+    margin: 0 30px;
+    padding: 35px;
 }
 
 .title{
-    font-size: min(7vh,3.34vw);
+    font-size: 3.125rem;
 }
 
 .subtitle{
-    font-size: min(3.5vh,1.67vw);
+    font-size: 1.563rem;
     color: rgba(255,255, 255, 0.75);
 }
 
 .img{
-    max-height: 50vh;
-    min-height: 25vh;
-    width: 60%;
+    height: 40vh;
+    width: 50%;
     background-repeat: no-repeat;
-    object-fit: cover;
     background-size: 100%;
-    border-radius: min(2.8vh,1.33vw);
-    margin: 0;
+    border-radius: 20px;
     overflow: hidden;
-    position: relative;
+    margin: 0 0 20px 0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    position: relative
 }
 
 .wrap{
@@ -75,17 +85,11 @@
 }
 
 .desc{
-    width: 40%;
+    width: 50%;
     overflow: hidden;
     text-overflow: clip;
-    padding: 0 2vw;
-    font-size: min(1.95vh,0.93vw);
-}
-
-.slidesholder{
-    width: 75vw;
-    padding: 5.6vh 0;
-    margin: 0;
+    padding: 0 30px;
+    font-size: 0.875rem;
 }
 
 .button__bar {
@@ -103,8 +107,8 @@
     list-style: none;
     cursor: pointer;
     display: inline-block;
-    margin: 0 0.2vw;
-    padding: 0 0.67vw;
+    margin: 0 3px;
+    padding: 0 10px;
 }
   
 .button__bar li button {
@@ -113,8 +117,8 @@
     color: transparent;
     cursor: pointer;
     display: block;
-    height: 1.4vh;
-    width: 0.67vw;
+    height: 10px;
+    width: 10px;
     border-radius: min(1.05vh,050vw);
 }
   
