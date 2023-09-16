@@ -19,6 +19,8 @@ import sm3 from '../public/projects/spacemate/3.png';
 import sm4 from '../public/projects/spacemate/4.png';
 import sm5 from '../public/projects/spacemate/5.png';
 import sm6 from '../public/projects/spacemate/6.png';
+import sm7 from '../public/projects/spacemate/7.png';
+import sm8 from '../public/projects/spacemate/8.png';
 import fk1 from '../public/projects/foodkatta/1.png';
 import fk2 from '../public/projects/foodkatta/2.png';
 import fk3 from '../public/projects/foodkatta/3.jpg';
@@ -50,6 +52,10 @@ const data={
                     "ico":mdiGithub,
                     "txt":"Github Repo",
                     "url":"https://github.com/AryanWadkar/Log-Aggregator"
+                },{
+                    "ico":mdiVideo,
+                    "txt":"Video Explanation",
+                    "url":"https://drive.google.com/file/d/15TTMtrgGMYRaU76I8QxAOTpb8YhdAXM8/view?usp=sharing%5C"
                 }
             ],
             "details":`
@@ -151,7 +157,7 @@ const data={
             "title": "SpaceMate", 
             "subtitle":"FREELANCE PROJECT",
             "desc": "My first real world project, solving a real world problem for an interior design company based in Pune. The project resulted in a system to manage their operations, communicate with their customers and offer a mobile ecommerce platform configurable from an Admin side application. The project also features a document based chat and a system which executives at the company can use to send interior design solutions based on client input.", 
-            "images":[sm0,sm1,sm2,sm3,sm4,sm5,sm6],
+            "images":[sm0,sm1,sm2,sm3,sm4,sm5,sm6,sm7,sm8],
             "skills": ["Flutter","Google OAuth2","Figma","System Architecture Design","Firebase Cloud Storage","Push Notifications","FireStore",] ,
             "links":[
                 {

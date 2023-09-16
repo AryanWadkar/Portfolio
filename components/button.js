@@ -12,7 +12,7 @@ export default function PurpleButton(props){
             <Icon 
             className={styles.ico}
             path={props.ico}
-            size={'4vh'}
+            size='1.5em'
             color="white"/>
         </Link>
         </div>

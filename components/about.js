@@ -48,25 +48,25 @@ export default function AboutSection(){
     <div className={styles.bg} id="about">
         <h1 className={`${bebasneue.className} ${styles.heading}`}>about me</h1>
         <h2 className={`${roboto.className} ${styles.txt}`}>I am a final year student at Indian Insititue of Information Technology, Design and Manufacturing (IIITDM) Jabalpur. I love to learn new technologies and use that knowledge to build real world applications and systems, be it for fun or be it actual solutions. When I am not working with code, I like to sit with my guitar and indulge in all kinds of music to relax myself.</h2>
-            <Slider {...settings} >
-                    <div className={styles.img}> <Image src={AE} width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto'}}/></div>
-                    <div className={styles.img}><Image src={css}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/> </div>
-                    <div className={styles.img}><Image src={django}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto'}}/></div>
-                    <div className={styles.img}><Image src={figma}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
-                    <div className={styles.img}><Image src={firebase} width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
-                    <div className={styles.img}><Image src={flutter}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
-                    <div className={styles.img}><Image src={html}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
-                    <div className={styles.img}><Image src={illustrator}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
-                    <div className={styles.img}><Image src={js} width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
-                    <div className={styles.img}><Image src={mongo}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
-                    <div className={styles.img}><Image src={next}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
-                    <div className={styles.img}><Image src={node}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
-                    <div className={styles.img}><Image src={premiere}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
-                    <div className={styles.img}><Image src={psql} width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
-                    <div className={styles.img}><Image src={react}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
-                    <div className={styles.img}><Image src={socket}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
-                    <div className={styles.img}><Image src={ts}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
-            </Slider>
+        <Slider {...settings}>
+                <div className={styles.img}><Image src={AE} width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto'}}/></div>
+                <div className={styles.img}><Image src={css}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/> </div>
+                <div className={styles.img}><Image src={django}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto'}}/></div>
+                <div className={styles.img}><Image src={figma}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
+                <div className={styles.img}><Image src={firebase} width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
+                <div className={styles.img}><Image src={flutter}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
+                <div className={styles.img}><Image src={html}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
+                <div className={styles.img}><Image src={illustrator}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
+                <div className={styles.img}><Image src={js} width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
+                <div className={styles.img}><Image src={mongo}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
+                <div className={styles.img}><Image src={next}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
+                <div className={styles.img}><Image src={node}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
+                <div className={styles.img}><Image src={premiere}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
+                <div className={styles.img}><Image src={psql} width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
+                <div className={styles.img}><Image src={react}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
+                <div className={styles.img}><Image src={socket}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
+                <div className={styles.img}><Image src={ts}  width={0} height={0} sizes="100vw" style={{ width: '60%', height: 'auto' }}/></div>
+        </Slider>
     </div>
     );
 }
