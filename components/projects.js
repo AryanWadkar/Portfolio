@@ -14,6 +14,8 @@ import Image from 'next/image'
 const bebasneue = Bebas_Neue({weight:'400', subsets: ['latin'] });
 const roboto = Roboto({weight:'400', subsets: ['latin'] });
 const robotobold = Roboto({weight:'700', subsets: ['latin'] });
+
+
 export default function Projects(props){
     var settings = {
         dots: true,

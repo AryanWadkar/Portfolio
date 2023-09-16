@@ -7,9 +7,9 @@ import { useState } from 'react';
 import {default as fulldata} from "../public/content";
 
 
+const bebasneue = Bebas_Neue({weight:'400', subsets: ['latin'] });
 const roboto = Roboto({weight:'400', subsets: ['latin'] });
 const robotobold = Roboto({weight:'700', subsets: ['latin'] });
-const bebasneue = Bebas_Neue({weight:'400', subsets: ['latin'] });
 
 export default function WorkEx(){
 
@@ -21,7 +21,7 @@ export default function WorkEx(){
     const data=fulldata.workex;
     return (
     <div className={styles.bg} id="exp">
-        <h1 className={`${bebasneue.className} ${styles.heading}`}>i have worked at</h1>
+        <h1 className={`${bebasneue.className} ${styles.heading}`}>I HAVE WORKED AT</h1>
         <div className={`${bebasneue.className} ${styles.flex}`}>
             <div className={styles.labels}>
                 <div className={`${currsel=="fusion"?styles.sel:''} ${styles.btn}`} onClick={(e)=>changeproj("fusion")}>Fusion IIITDMJ</div>

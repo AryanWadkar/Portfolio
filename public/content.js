@@ -191,7 +191,9 @@ const data={
                         </li>
                     </ul>
                     <p>To keep things simple I decided to use <strong>Firebase</strong> for all backend purposes (<strong>BaaS</strong>), <strong>I worked</strong> on designing this <strong>system architecture</strong>, and <strong>database schema</strong>, I also <strong>designed interfaces</strong> for all the <strong>applications</strong> using <strong>Figma</strong>, I worked on <strong>deciding what each application did</strong>, and <strong>developing&nbsp;</strong>the mobile application and admin side web application using Flutter.</p>
+                    <br>
                     <hr>
+                    <br>
                     <p>Here are some of the notable features of the <strong>mobile application</strong>:</p>
                     <ul>
                         <li><strong>Service-wise catalog</strong> showcasing all the services that the company provides which updates using the data stored in <strong>Firebase Firestore</strong>.</li>
@@ -202,7 +204,9 @@ const data={
                         <li><strong>Custom widget</strong> for handling password entry and confirmation.</li>
                         <li>Session management using <strong>Provider</strong>.</li>
                     </ul>
+                    <br>
                     <hr>
+                    <br>
                     <p>Some notable features of the <strong>admin web application</strong> are:</p>
                     <ul>
                         <li>Provides a <strong>dashboard&nbsp;</strong>with a summary of total users, total executives, total projects, and total revenue so far along with conversion rate.</li>

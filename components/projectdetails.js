@@ -16,7 +16,7 @@ const robotobold = Roboto({weight:'900', subsets: ['latin'] });
 export default function ProjDetail(props){
     let items=[];
     props.content.images.forEach(element => {
-        items.push(<Img img={element}></Img>)
+        items.push(<Img img={element} key={element}></Img>)
     });
     return(
     <div className={styles.bg}>

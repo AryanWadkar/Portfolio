@@ -1,6 +1,5 @@
 .bg{
-    min-height: 95vh;
-    margin: 0;
+    margin: 100px 0;
     padding: 0;
     display: flex;
     justify-content: space-evenly;
@@ -33,9 +32,11 @@
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .bg{
+      margin:20px 0;
       flex-direction: column;
       justify-content: center;
     }
+
     .content{
         width: 80%;
     }
@@ -54,140 +55,3 @@
     }
     
   }
-
-/* 
-.yellowcircle {
-    background: #F4B616;
-    border-radius: 50%;
-    width: 33vw;
-    height: 33vw;
-    border: none;
-    position: absolute;
-    bottom: 10%;
-    right: 12%;
-}
-
-.hero {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    height: 70vh;
-    width: 19vw;
-    bottom: 0px;
-    right: 20%;
-}
-
-.memphis{
-    min-width: 10px;
-    min-height: 10px;
-    max-width: 500px;
-    max-height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-}
-
-.memphis:nth-child(1){
-    background-image: url('../public/hero/1.png');
-    height: 11.2vh;
-    width: 5.3vw;
-    bottom: 0px;
-    right: 0px;
-
-}
-
-.memphis:nth-child(2){
-    background-image: url('../public/hero/2.png');
-    height: 21vh;
-    width: 10vw;
-    top: 40%;
-    left: 0px;
-
-}
-
-.memphis:nth-child(3){
-    background-image: url('../public/hero/3.png');
-    height: 28.6vh;
-    width: 10.7vw;
-    top: 0px;
-    left: 0px;
-}
-
-.memphis:nth-child(4){
-    background-image: url('../public/hero/4.png');
-    height: 11.2vh;
-    width: 3.34vw;
-    top: 15%;
-    right: 37%;
-}
-
-.memphis:nth-child(5){
-    background-image: url('../public/hero/5.png');
-    height: 21vh;
-    width: 8.4vw;
-    top: 0;
-    right: 0;
-}
-
-.memphis:nth-child(6){
-    background-image: url('../public/hero/6.png');
-    height: 10vh;
-    width: 12vw;
-    bottom: 25%;
-    right: 40%;
-    z-index: 100;
-}
-
-.memphis:nth-child(7){
-    background-image: url('../public/hero/7.png');
-    height: 10.5vh;
-    width: 5vw;
-    bottom: 5%;
-    left: 5%;
-    animation: rotation 1s infinite ease-in;
-}
-
-.memphis:nth-child(8){
-    background-image: url('../public/hero/8.png');
-    height: 7vh;
-    width: 3.34vw;
-    top: 5%;
-    right: 25%;
-    animation: rotation 1s infinite linear;
-}
-
-.memphis:nth-child(9){
-    background-image: url('../public/hero/9.png');
-    height: 11vh;
-    width: 2.14vw;
-    top: 15%;
-    right: 2%;
-}
-
-.memphis:nth-child(10){
-    background-image: url('../public/hero/10.png');
-    height: 8.4vh;
-    width: 5.35vw;
-    top: 0px;
-    left: 0px;
-}
-
-@keyframes rotation {
-    0% {
-      transform: scale(1);
-      transform-origin: center center;
-      transform: rotate(-360deg) scale(1);
-    }
-    50% {
-      transform: scale(1.1);
-      transform-origin: center center;
-      transform: rotate(-180deg) scale(0.1);
-    }
-    100% {
-      transform: scale(1);
-      transform-origin: center center;
-      transform: rotate(0) scale(1);
-    }
-  } */
