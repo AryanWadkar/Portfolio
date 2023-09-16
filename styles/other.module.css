@@ -1,5 +1,4 @@
 .bg{
-    min-height:95vh;
     margin: 0;
     padding: 0;
     display: flex;
@@ -53,7 +52,6 @@
 }
 
 .card{
-    height: 60vh;
     margin: 0 30px;
     padding: 35px;
 }
@@ -136,15 +134,15 @@
         font-size: 2.34rem;
     }
     
+    .subtitle{
+        font-size: 1.2rem;
+    }
+
     .card{
-        height: max-content;
-        margin: 0 30Y
-        px;
+        margin: 0 30px;
         padding: 20px;
     }
   }
-
-
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
@@ -159,6 +157,12 @@
         margin: 7.5px;
     }
 
+    .card{
+        margin: 0 30px;
+        padding: 17.5px;
+    }
+    
+
     .img{
         height: 20vh;
         width: 100%;
@@ -166,7 +170,21 @@
         border-radius: 10px;
         margin: 10px 0;
     }
+
+    .title{
+        font-size: 1.56rem;
+    }
     
+    .subtitle{
+        font-size: 0.78rem;
+    }
+    
+    .desc{
+        width: 100%;
+        padding: 0 15px;
+        font-size: 0.437rem;
+    }
+
     .flex{
         display: flex;
         flex-direction: column;
@@ -187,11 +205,11 @@
     }
   }
 
-  @media only screen and (max-width: 336px) {
+  @media only screen and (max-width: 368px) {
     /* For mobile phones: */
     .card{
-        min-height: 100vh;
-        height: max-content;
+        margin: 0 15px;
+        padding: 10px;
     }
     
   }

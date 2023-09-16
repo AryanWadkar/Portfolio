@@ -1,5 +1,4 @@
 .bg{
-    min-height:95vh;
     margin: 0;
     padding: 0;
     display: flex;
@@ -47,7 +46,7 @@
 }
 
 .card{
-    height: 80vh;
+    height: 100%;
     background-color: #0C1123;
     box-shadow: rgba(255, 255, 255, 0.07) 0px 1px 2px, rgba(255, 255, 255, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
     margin: 0 30px;
@@ -130,9 +129,6 @@
     .desc{
         font-size: 0.8rem;
     }
-    .card{
-        height: 78vh;
-    }
 
     .cardtitle{
         font-size: 2.34rem;
@@ -140,8 +136,7 @@
     
   }
 
-
-
+  
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .heading{
@@ -168,8 +163,6 @@
     }
 
     .card{
-        min-height: 80vh;
-        height: max-content;
         margin: 0 7px;
         border-radius: 20px;
         padding: 12px;
@@ -201,13 +194,4 @@
         height: 5px;
         width: 5px;
     }
-  }
-
-  @media only screen and (max-width: 336px) {
-    /* For mobile phones: */
-    .card{
-        min-height: 100vh;
-        height: max-content;
-    }
-    
   }

@@ -38,3 +38,15 @@ li{
   list-style-type: circle;
   display: list-item;
 }
+
+.slick-track {
+  display: flex !important;
+  align-items: stretch !important;
+}
+ 
+.slick-slide {
+  display: flex !important; 
+  align-items: stretch !important;
+  height: auto !important;
+  padding: 20px 0;
+}

@@ -29,11 +29,11 @@
 }
 
 .subheading{
-    font-size:20px;
+    font-size: 1.25rem;
 }
 
 .preface{
-    font-size:14px
+    font-size: 0.875rem;
 }
 
 .img{
@@ -54,7 +54,7 @@
 }
 
 .desc{
-    font-size:14px
+    font-size: 0.875rem;
 }
 
 .button__bar {
@@ -90,3 +90,57 @@
 .button__bar :global(li.slick-active) button {
     background-color: #F3B616;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .heading{
+        font-size: 1.56rem;
+        padding: 7.5px 0px 5px;
+    }
+
+    .img{
+        height: 20vh;
+        width: 100%;
+        background-size: 100%;
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+
+    .slidesholder{
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .flex{
+        margin:0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desc{
+        font-size: 0.6rem;
+    }
+
+    .preface{
+        font-size: 0.6rem;
+    }
+
+    .subheading{
+        font-size: 0.6rem;
+    }
+
+    .button__bar {
+        margin-top: 10px;
+    }
+      
+    .button__bar li {
+        margin: 0 1.5px;
+        padding: 0 5px;
+    }
+      
+    .button__bar li button {
+        height: 5px;
+        width: 5px;
+    }
+  }
+

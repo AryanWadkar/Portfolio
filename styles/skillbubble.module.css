@@ -30,3 +30,12 @@
     }
   }
 
+  
+  @media only screen and (max-width: 368px) {
+    /* For mobile phones: */
+    .bubble{
+        padding: 1.5px 5px;
+        border-radius: 2.5px;
+    }
+  }
+

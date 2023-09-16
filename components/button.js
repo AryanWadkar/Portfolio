@@ -10,6 +10,7 @@ export default function PurpleButton(props){
         <div className={styles.circle} data-hover={props.txt}>
         <Link href={props.goto} target="_blank">
             <Icon 
+            className={styles.ico}
             path={props.ico}
             size={'4vh'}
             color="white"/>
