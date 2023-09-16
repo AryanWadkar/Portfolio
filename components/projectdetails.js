@@ -2,26 +2,24 @@ import PurpleButton from "./button";
 import { Bebas_Neue,Roboto } from 'next/font/google';
 import styles from "../styles/projectdetails.module.css"
 import SkillBubble from "./skillbubble";
-import { useRef } from 'react';
+
 import Projects from "./projects";
 import Image from 'next/image'
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css';
+
+import Carousel from "nuka-carousel"
+
 
 const bebasneue = Bebas_Neue({weight:'400', subsets: ['latin'] });
 const roboto = Roboto({weight:'400', subsets: ['latin'] });
 const robotobold = Roboto({weight:'900', subsets: ['latin'] });
 
 export default function ProjDetail(props){
-let items=[];
-props.content.images.forEach(element => {
-    items.push(<Img img={element}></Img>)
-});
-
-const slider = useRef(null);
+    let items=[];
+    props.content.images.forEach(element => {
+        items.push(<Img img={element}></Img>)
+    });
     return(
     <div className={styles.bg}>
-
             <div className={styles.flex}> 
                 <div className={styles.header}>
                     <h2 className={`${bebasneue.className} ${styles.heading}`}>{props.content.title}</h2>
@@ -37,8 +35,11 @@ const slider = useRef(null);
                     </div>
                 </div>
                 <div className={styles.slidesholder}>
-                    <AliceCarousel infinite='true' autoPlay='true' disableButtonsControls='true' autoPlayInterval={1000} items={items} />
+                        <Carousel autoplay='true' wrapAround='true'>
+                            {items}
+                        </Carousel>
                 </div>
+
             </div>
             <div className={styles.desc}>
                 <p className={`${robotobold.className} ${styles.subheading}`}>DETAILS</p>
