@@ -46,7 +46,7 @@ const data={
             "subtitle":"Techsurf 2023",
             "desc": "Part of my submission for the hackathon Techsurf 2023 organised by Contentstack, the hackathon provided 3 problem statements one of them was to build a log aggregator service prototype (something like logstash) that will aggregate logs and provide a way to visualize them, they had bonus points for using opentelemetery to collect logs from various sources like AWS CloudWatch, Kafka, various frontend and backend applications etc. I implemented a solution using React.js, Express.js, BullMQ, NGINX and Opentelemetry's OTLP.", 
             "images":[logagg1,logagg2],
-            "skills": ["Express.js","Node.js","OpenTelemetry","ElasticSearch","Kibana"] ,
+            "skills": ["Express.js","Node.js","OpenTelemetry","ElasticSearch","NGINX","Redis","System Design","React.js"] ,
             "links":[
                 {
                     "ico":mdiGithub,
@@ -344,14 +344,14 @@ const data={
             "title": "Techsurf 2023", 
             "subtitle":"Hackathon",
             "desc": "This was a hackathon organised by Contentstack, I secured rank 5 out of 34396 applicants. The selection was on the basis of speed and accuracy in an online assessment. The second round presented 3 problem statements, out which I decided to build a prototype log aggregator service as my submission for round 2 which got shortlisted. I built a full scale solution which won me rank 5th in the hackathon", 
-            "skills": ["Node.js","Express.js","Data Structures","Algorithms"],
+            "skills": ["Express.js","Node.js","OpenTelemetry","ElasticSearch","NGINX","Redis","System Design","React.js"],
             "images":[techsurf],
             "link":""
         },{
             "id": "saaz", 
             "title": "SAAZ : THE MUSIC CLUB", 
             "subtitle":"CO-COORDINATOR",
-            "desc": "The official co-coordinator and gymkhana office bearer for Saaz : The music club of the insititue. I worked with the club to express my love for music and I managed, organised and executed 10+ events and activites which recieved participation from all kinds of people in the institute.", 
+            "desc": "The official co-coordinator and the student gymkhana office bearer for Saaz : The music club of the insititue. I worked with the club to express my love for music and I managed, organised and executed 10+ events and activites which recieved participation from all kinds of people in the institute.", 
             "skills": ["Event Management","Leadership"],
             "images":[saaz],
             "link":"https://www.iiitdmj.ac.in/saaz.iiitdmj.ac.in/"
@@ -368,7 +368,7 @@ const data={
             "title": "Techniche IIT Guwahait", 
             "subtitle":"Robot Building Competiton",
             "desc": "Participated in a robot building competition organised by IIT Guwahati, the competiton tasked me and me team of 4 to build a bot that can move around in 4 directions, pick up and object and ascend/descend a rope. Me and my team made designs and models for the bot and also qualified among 6 other teams from our insititue.", 
-            "skills": ["Robot Design","Collaboration"],
+            "skills": ["Robot Design","Team Work"],
             "images":[techniche],
             "link":""
         },{
@@ -384,7 +384,7 @@ const data={
             "title": "Xiaomi Ode2Code 2.0", 
             "subtitle":"Hackathon",
             "desc": "This hackathon was organised by Xiaomi, the problem statement was to create a unified billing system for their physical stores that will digitize their POS (Point of Sale) endpoints. I participated with a batchmate and qualified the first round of the hackathon among 7806 teams.", 
-            "skills": ["System Architecture Design","Collaboration","Figma"],
+            "skills": ["System Architecture Design","Team Work","Figma"],
             "images":[o2c],
             "link":""
         },{
@@ -400,7 +400,7 @@ const data={
             "title": "BMC IIITDMJ", 
             "subtitle":"Content Graphic Design",
             "desc": "A creative skill that I decided to learn during my first year, I used Adobe Illustrator to design posts for the business and management club (BMC) of my institute, I worked in a content creation team where I had fellow content curators and graphic designers working together to create 3 posts every week. I also did poster design for events at my club Saaz.", 
-            "skills": ["Adobe Illustrator","Collaboration"],
+            "skills": ["Adobe Illustrator","Team Work"],
             "images":[bmc],
             "link":"https://www.instagram.com/bmc.iiitdmj/"
         },{

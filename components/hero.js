@@ -19,7 +19,7 @@ export default function HeroSection(){
                 <PurpleButton ico={mdiLinkedin} txt="Linkedin" goto="https://www.linkedin.com/in/aryan-wadkar-784966200/"/>
                 <PurpleButton ico={mdiGithub} txt="Github" goto="https://github.com/AryanWadkar"/>
                 <PurpleButton ico={mdiXml} txt="Coding Profile" goto="https://www.codingninjas.com/studio/profile/aryanw"/>
-                <PurpleButton ico={mdiDownload} txt="Get Resume" goto="https://drive.google.com/file/d/14JmP6oB8sL6S0ELdjS7c27TLnY72V8uM/view?usp=drive_link"/>
+                <PurpleButton ico={mdiDownload} txt="Get Resume" goto="https://drive.google.com/file/d/1Selo7FNP2ImnfVZasvBmD20WWL_pmmQ2/view?usp=sharing"/>
             </div>
         </div>
         <Image src={hero} width={0} height={0} sizes="100vw" className={styles.hero}/>
