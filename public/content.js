@@ -354,7 +354,7 @@ const data={
             "desc": "The official co-coordinator and the student gymkhana office bearer for Saaz : The music club of the insititue. I worked with the club to express my love for music and I managed, organised and executed 10+ events and activites which recieved participation from all kinds of people in the institute.", 
             "skills": ["Event Management","Leadership"],
             "images":[saaz],
-            "link":"https://www.iiitdmj.ac.in/saaz.iiitdmj.ac.in/"
+            "link":"https://www.iiitdmj.ac.in/students/gymkhana/clubs.php"
         },{
             "id": "cloud", 
             "title": "30 Days of cloud", 
